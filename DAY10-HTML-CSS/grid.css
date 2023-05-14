@@ -1,0 +1,27 @@
+.grid-container{
+    display:grid;
+    /* grid-template-columns: 100px 200px  auto; */
+    /* grid-template-columns: 1fr 2fr 3fr; */ for width
+     /* grid-template-row: 1fr 2fr 3fr; */
+     /* grid-template-row: repeat(1 fr 2fr 3fr); */
+     grid-template-row: 100px 200px auto;
+     grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-item{
+    border: 1px solid blue;
+    text-align:center;
+    padding:40px
+}
+
+.row1{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row2{
+    grid-template-columns: 1fr 2fr;
+}
+
+.row3{
+    grid-template-columns: 1fr ;
+}

@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid ;
+}
+
+.Box{
+    padding: 33px;
+    background-color: aqua;
+    margin: auto;
+
+}
